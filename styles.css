@@ -1,0 +1,18 @@
+.select-width {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.shifts-format {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.divTurnosEspeciales {
+  display: none;
+}

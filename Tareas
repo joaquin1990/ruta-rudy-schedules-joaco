@@ -1,0 +1,4 @@
+- Hacer un input con un valor numerico (seria el "Numero de turnos del dia")
+- Poner hardcodeado los dias de la semana como esta en "Esquema Semanal", empezar con el lunes, para que quede como ejemplo.
+- Armar como para que quede dinamico, que aparezcan todos los turnos, y que aparezcan los inputs de los horarios, y el desplegable para el "Turno especial".
+- Estabamos con el proyecto 17 de los autos para ver listas desplegables, etc.

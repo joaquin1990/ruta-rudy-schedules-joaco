@@ -1,0 +1,26 @@
+--------------------------------------------------
+- VISTAS DE LA APLICACION:
+
+1 - Vista Principal (Iniciar Sesion)
+    a - Iniciar Sesion (Registro de usuarios, Login, Olvide mi contraseña)
+2 - Panel de gestión 
+    a - Nuevo Equipo (Nombre del equipo)
+            a.1 Esquema semanal (Cantidad de turnos,  Horarios de los turnos, Turnos especiales). 
+            a.2 Datos equipo (Agregar integrantes, No disponibilidad)
+    b - Armar Horarios (Semana con todos los dias y listas desplegables para ir colocando a los miembros del equipo, Semana Terminada)
+    c - Resumen Mensual (cargado de horas de las horas reales que trabajo cada integrante del equipo) 
+
+** Capaz que estaria bueno ir pensando en algo que nos actualice antes de pasar a "Armar Horarios", a ver si estamos cubiertos en todos los dias con las disponibilidades que tenemos en ese momento. O mismo en "Armar horarios" que aparezca un cartel diciendo que faltaria 1 turno de caja, por ejemplo, una especie de RESUMEN.  
+** Ver si pondria un boton para ver los meses anteriores (ver cuantos meses anteriores dejariamos guardados para que los pueda ver el encargado.)
+
+--------------------------------------------------
+- LOGICAS DE LA APLICACION:
+
+ 1 - Esquema semanal (dias de la semana, sus turnos con horarios, turnos especiales)
+
+ 2 - Disponibilidades personas (disponibilidades semanales, turnos especiales, carga horaria semanal)
+
+
+
+ 
+

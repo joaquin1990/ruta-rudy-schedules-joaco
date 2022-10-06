@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="bodyCotainer">
+    <div class="divTurnosEspeciales">
+      <label for="turnosEspeciales">Dias de la semana</label>
+      <select
+        class="select-width"
+        name="turnosEspeciales"
+        id="turnosEspeciales"
+      >
+        <option value="">Seleccione</option>
+        <option value="Carne">Carne</option>
+        <option value="Limpieza">Limpieza</option>
+        <option value="Piso">Piso</option>
+      </select>
+    </div>
+
+    <label for="cantidadTurnos">Cantidad de Turnos</label>
+    <input type="number" name="cantidadTurnos" id="cantidadTurnos" />
+    <button type="button" id="buttonEjecutar">Ejecutar</button>
+    <hr />
+    <div id="div-container">
+      <table id="shift-table" class="select-width">
+        <thead>
+          <tr>
+            <th>Turno</th>
+            <th>Inicio</th>
+            <th>Fin</th>
+            <th>Turno Especial</th>
+          </tr>
+        </thead>
+        <tbody class="select-width"></tbody>
+      </table>
+    </div>
+    <input type="time" name="" id="testTime" />
+    <input type="time" name="" id="testTime2" />
+    <script src="/disponibilidades-personas.js"></script>
+    <script src="/esquema-semanal.js"></script>
+  </body>
+</html>
